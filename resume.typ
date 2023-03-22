@@ -13,29 +13,30 @@
 
 #show link: underline
 
+#show heading.where(level: 1): it => align(center, it)
+#show heading.where(level: 2): it => align(center, it)
+
 #set list(indent: 10pt)
 
 ///////////////////////////////////////////////////
 // Content
 
-#align(center)[
-    = Benjamin Quinn
+= Benjamin Quinn
 
+#align(center)[
     36 W 75th St New York, NY 10023 • (914) 708-7588 • #link("mailto:benjamin.quinn92@gmail.com")
 
     #link("https://www.linkedin.com/in/benjamin-quinn-54408689", "LinkedIn") • #link("https://github.com/Blquinn", "Github")
-
-    == Education
 ]
+
+== Education
+
 
 *Bachelor’s of Science in Computer Science and Information Systems*
 
 University of Vermont, College of Engineering and Mathematical Sciences (2011-2015)
 
-
-#align(center)[
-    == Professional Work
-]
+== Professional Work
 
 #link("https://hubspot.com")[ === Hubspot ]
 
@@ -69,12 +70,11 @@ University of Vermont, College of Engineering and Mathematical Sciences (2011-20
 
 - Created a cross-platform, chat based lesson delivery application. _(React-Native, Firebase)_
 
-#align(center)[
-    == Skills
-]
+== Skills
 
 / Languages: Go, Java/Kotlin, Python, Javascript/Typescript, C++, SQL \
 / Cloud: Kubernetes, EC2, ECS, RDS, EKS, Elasticache, SQS, S3, IAM \
 / Databases: PostgreSQL, MySQL, MongoDB, DynamoDB, Redis, ElasticSearch \
 / Web: React, Vue, Svelte, HTML, CSS/Sass \
 / Miscellaneous: Kafka, RabbitMQ, Temporal, Linux, Git, Bash, Docker, Terraform \
+
