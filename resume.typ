@@ -21,7 +21,7 @@
 ///////////////////////////////////////////////////
 // Content
 
-= Benjamin Quinn
+= Tits McGee
 
 #align(center)[
     36 W 75th St New York, NY 10023 • (914) 708-7588 • #link("mailto:benjamin.quinn92@gmail.com")
@@ -30,7 +30,6 @@
 ]
 
 == Education
-
 
 *Bachelor’s of Science in Computer Science and Information Systems*
 
